@@ -41,4 +41,5 @@ target_link_libraries(${PROJECT_NAME}
     ${PLUGIN_INTERNAL_DEPS}
     ${X11_PKGCONF_LDFLAGS}
     ${SDL_PKGCONF_LDFLAGS}
+    -lrt
     )
